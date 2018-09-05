@@ -1,4 +1,5 @@
 #!/bin/bash
+gcc hello.c -o hello
 IMG_TAG=sanguohot/clang-hello:1.0
 from_path=$PWD
 dockerfile_path=$(cd `dirname $0`;pwd)
